@@ -1,0 +1,132 @@
+@charset "IBM437";
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+html {
+  background-color: transparent;
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+body {
+  margin: 0;
+ 
+  line-height: 1.2; }
+
+.b-loading-img {
+  height: 295px;
+  transform-origin: center center;
+  animation: loader 1s infinite linear;
+  -webkit-animation: loader 1s infinite linear;
+  width: 295px; }
+  .loader-lock .l-wrapper {
+    visibility: visible;
+    overflow-y: scroll; }
+
+.l-wrapper {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  background: white;
+  display: block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  white-space: nowrap;
+  overflow: auto;
+  text-align: center;
+  z-index: 200;
+  opacity: 1; }
+
+ .l-wrapper:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 0; }
+  .l-wrapper.is-hide {
+    visibility: hidden;
+    z-index: 0; }
+
+.b-loading-wrap {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle; }
+
+.b-loading-logo {
+  width: 100%;
+  margin-top: -53px;
+  position: absolute;
+  top: 50%;
+  text-align: center; }
+
+.color-theme-preloader {
+  visibility: hidden; }
+
+
+.color-themes {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .color-themes > li {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 1px; }
+    .color-themes > li.is-active {
+      border: 2px solid white; }
+  .color-themes .default-color {
+    background-color: #e9682e; }
+  .color-themes .cyan-color {
+    background-color: #5ca2c4; }
+  .color-themes .red-color {
+    background-color: #f44a53; }
+  .color-themes .yellow-color {
+    background-color: #dca13b; }
+  .color-themes .green-color {
+    background-color: #72bf59; }
+  .color-themes .blue-color {
+    background-color: #4496d2; }
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+
+  to {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+@-webkit-keyframes loader {
+  from {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+
+  to {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+.loader-lock {
+  position: relative;
+  overflow: visible; }
+  .loader-lock body {
+    overflow: hidden;
+    visibility: hidden; }
+  .loader-lock .l-wrapper {
+    visibility: visible;
+    overflow-y: scroll; }

@@ -1,0 +1,33 @@
+#upload{
+	max-width: 700px;
+	padding: 40px 20px;
+	margin: 10px auto;
+	border: 10px solid #343a40;
+	border-radius: 30px;
+	width: 80%;
+}
+
+.btn-danger{
+	background: #343a40;
+}
+
+
+.btn-outline-success{
+	margin: 0px 10px;
+	color: white;
+	border: 1px solid white;
+}
+
+.custom-select{
+	margin-bottom: 20px;
+}
+
+.custom-file{
+	margin-bottom: 15px;
+}
+
+.postBtn{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}

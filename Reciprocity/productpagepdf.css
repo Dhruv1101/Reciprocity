@@ -1,0 +1,27 @@
+.card{
+	margin: 10px;
+	margin-top: 15px;
+}
+
+.btn-outline-success{
+	color: white;
+	margin-right: 15px;
+	font-weight: bold;
+}
+
+.btn-danger{
+	color: white;
+	background: #343a40;
+}
+
+.secondNavItems{
+	font-weight: bold;
+	margin-right: 40px; 
+}
+
+#ourproducts{
+	text-align: center;
+	margin: 5px;
+	margin-top: 10px;
+	text-decoration: underline;
+}
